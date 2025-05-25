@@ -1,4 +1,4 @@
-import { instantiate } from "@assemblyscript/loader";
+import { instantiate } from "../../node_modules/@assemblyscript/loader/index.js";
 
 async function init() {
   const response = await fetch("../build/release.wasm");
