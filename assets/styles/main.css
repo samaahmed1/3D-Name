@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #ffffff;
+  font-family: sans-serif;
+}
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  justify-content: center;
+}
+.text-3d {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #ff6b6b;
+  letter-spacing: 2px;
+  text-shadow: -2px -2px 0 rgba(255, 255, 255, 0.2), 1px 1px 0 #e55, 2px 2px 0 #d44, 3px 3px 0 #c33, 4px 4px 0 #b22, 5px 5px 0 #a11, 6px 6px 0 #900, 7px 7px 0 #700, 8px 8px 0 #500,
+    9px 9px 0 rgba(0, 0, 0, 0.2), 10px 10px 0 rgba(0, 0, 0, 0.15), 11px 11px 0 rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 676px) {
+  .text-3d {
+    font-size: 4.3rem;
+  }
+}
